@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: "Multinational financial advisory firm specializing in debt and capital raising.",
   },
   icons: {
-    icon: "/logo.png",
+    icon: "/logo_.png",
   },
 };
 

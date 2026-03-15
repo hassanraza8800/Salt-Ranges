@@ -8,15 +8,15 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.footerGrid}`}>
-        
+
         {/* Company Info */}
         <div className={styles.column}>
           <Link href="/" className={styles.logo}>
-            <Image 
-              src="/logo.png" 
-              alt="Salt Ranges Logo" 
-              width={180} 
-              height={50} 
+            <Image
+              src="/logo.png"
+              alt="Salt Ranges Logo"
+              width={180}
+              height={50}
               className={styles.logoImage}
             />
           </Link>
@@ -41,10 +41,7 @@ export default function Footer() {
             📍 Meydan Free Zone, Dubai
           </div>
           <div className={styles.contactItem}>
-            📞 Dubai: +971 50 210 6095
-          </div>
-          <div className={styles.contactItem}>
-            📞 Canada: +1 368 993 3609
+            📞 +1 368 993 3609
           </div>
           <div className={styles.contactItem}>
             ✉️ info@salt-ranges.com

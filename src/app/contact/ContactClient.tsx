@@ -18,15 +18,15 @@ export default function ContactClient() {
       gsap.fromTo(`.${styles.headerTitle}`, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease: 'power3.out' });
       gsap.fromTo(`.${styles.headerSubtitle}`, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1.2, ease: 'power3.out', delay: 0.2 });
 
-      gsap.fromTo(`.${styles.infoItem}`, { x: -30, opacity: 0 }, { 
+      gsap.fromTo(`.${styles.infoItem}`, { x: -30, opacity: 0 }, {
         x: 0, opacity: 1, duration: 1, stagger: 0.2, ease: 'power3.out', scrollTrigger: { trigger: `.${styles.contactInfoBox}`, start: 'top 85%' }
       });
 
-      gsap.fromTo(`.${styles.caseStudyCard}`, { x: -30, opacity: 0 }, { 
+      gsap.fromTo(`.${styles.caseStudyCard}`, { x: -30, opacity: 0 }, {
         x: 0, opacity: 1, duration: 1, stagger: 0.2, ease: 'power3.out', scrollTrigger: { trigger: `.${styles.caseStudiesList}`, start: 'top 85%' }
       });
 
-      gsap.fromTo(`.${styles.formContainer}`, { y: 50, opacity: 0 }, { 
+      gsap.fromTo(`.${styles.formContainer}`, { y: 50, opacity: 0 }, {
         y: 0, opacity: 1, duration: 1.2, ease: 'power3.out', scrollTrigger: { trigger: `.${styles.formContainer}`, start: 'top 85%' }
       });
     });
@@ -35,15 +35,15 @@ export default function ContactClient() {
       gsap.fromTo(`.${styles.headerTitle}`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' });
       gsap.fromTo(`.${styles.headerSubtitle}`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out', delay: 0.2 });
 
-      gsap.fromTo(`.${styles.infoItem}`, { opacity: 0, y: 25 }, { 
+      gsap.fromTo(`.${styles.infoItem}`, { opacity: 0, y: 25 }, {
         opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power2.out', scrollTrigger: { trigger: `.${styles.contactInfoBox}`, start: 'top 85%' }
       });
 
-      gsap.fromTo(`.${styles.caseStudyCard}`, { opacity: 0, y: 25 }, { 
+      gsap.fromTo(`.${styles.caseStudyCard}`, { opacity: 0, y: 25 }, {
         opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power2.out', scrollTrigger: { trigger: `.${styles.caseStudiesList}`, start: 'top 85%' }
       });
 
-      gsap.fromTo(`.${styles.formContainer}`, { opacity: 0, y: 35 }, { 
+      gsap.fromTo(`.${styles.formContainer}`, { opacity: 0, y: 35 }, {
         opacity: 1, y: 0, duration: 1, ease: 'power2.out', scrollTrigger: { trigger: `.${styles.formContainer}`, start: 'top 85%' }
       });
     });
@@ -67,7 +67,7 @@ export default function ContactClient() {
     e.preventDefault();
     const subject = `New Inquiry from ${formData.name} - ${formData.company}`;
     const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0ACompany: ${formData.company}%0D%0AFunding Required: ${formData.funding}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-    
+
     // Redirect to mail client
     window.location.href = `mailto:info@salt-ranges.com?subject=${subject}&body=${body}`;
   };
@@ -92,12 +92,12 @@ export default function ContactClient() {
 
       {/* Main Content */}
       <div className={`container ${styles.pageLayout}`}>
-        
+
         {/* Left Column: Contact Info & Case Studies */}
         <div>
           <div className={styles.contactInfoBox}>
             <h2 className={styles.contactInfoTitle}>Get in Touch</h2>
-            
+
             <div className={styles.infoItem}>
               <div className={styles.infoIcon}>📍</div>
               <div className={styles.infoText}>
@@ -109,9 +109,7 @@ export default function ContactClient() {
             <div className={styles.infoItem}>
               <div className={styles.infoIcon}>📞</div>
               <div className={styles.infoText}>
-                <h4>Phone Numbers</h4>
-                <p>Dubai: +971 50 210 6095</p>
-                <p>Canada: +1 368 993 3609</p>
+                <p>+1 368 993 3609</p>
               </div>
             </div>
 
@@ -142,7 +140,7 @@ export default function ContactClient() {
         <div>
           <div className={styles.formContainer}>
             <h2 style={{ marginBottom: '30px', color: 'var(--primary)' }}>Book a Consultation</h2>
-            
+
             <form onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
                 <label htmlFor="name" className={styles.formLabel}>Full Name</label>

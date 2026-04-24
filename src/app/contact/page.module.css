@@ -26,9 +26,11 @@
   .header {
     padding: 120px 15px 60px;
   }
+
   .headerTitle {
     font-size: 2.2rem;
   }
+
   .headerSubtitle {
     font-size: 1rem;
   }
@@ -99,6 +101,9 @@
 
 .infoIcon {
   font-size: 1.5rem;
+  display: flex;
+  gap: 2px;
+  width: 10%;
   color: var(--accent);
 }
 
@@ -127,7 +132,7 @@
   background: var(--background-dark);
   padding: 40px;
   border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 768px) {
@@ -135,6 +140,7 @@
     padding: 20px;
     border-radius: 10px;
   }
+
   .formContainer {
     padding: 20px 15px;
   }

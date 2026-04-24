@@ -73,21 +73,21 @@ export default function ContactClient() {
   };
 
   const dealPortfolio = [
-    { 
-      title: "Oil & Gas | $300M+", 
-      desc: "Structured cross-border working capital solutions for a major energy players. Implemented ring-fenced transaction structures to secure substantial credit facilities, across 5 international markets." 
+    {
+      title: "Oil & Gas | $300M+",
+      desc: "Structured cross-border working capital solutions for a major energy players. Implemented ring-fenced transaction structures to secure substantial credit facilities, across 5 international markets."
     },
-    { 
-      title: "Greenfield Project Funding | $200M+", 
-      desc: "Provided end-to-end financing for industrial and mixed-use real estate projects in the UAE and KSA including comprehensive advisory from feasibility to disbursement. Structured integrated financing packages combining term loans with working capital." 
+    {
+      title: "Greenfield Project Funding | $200M+",
+      desc: "Provided end-to-end financing for industrial and mixed-use real estate projects in the UAE and KSA including comprehensive advisory from feasibility to disbursement. Structured integrated financing packages combining term loans with working capital."
     },
-    { 
-      title: "Healthcare & Education Expansion | $200M+", 
-      desc: "Arranged growth financing and debt consolidation for regional healthcare and education providers. Structured innovative waterfall repayment mechanisms on receivable financing using discounting / factoring tools. Facilitated expansion of 10+ facilities across the region." 
+    {
+      title: "Healthcare & Education Expansion | $200M+",
+      desc: "Arranged growth financing and debt consolidation for regional healthcare and education providers. Structured innovative waterfall repayment mechanisms on receivable financing using discounting / factoring tools. Facilitated expansion of 10+ facilities across the region."
     },
-    { 
-      title: "Real Estate Portfolio Solutions | $400M+", 
-      desc: "Executed complex refinancing and buyout transactions for premium GCC real estate assets. Helped number of real estate developers grow in the UAE market by arranging Real Estate Regulatory Authority (RERA) guarantees. Created innovative financing structures to support development projects by discounting receivables of pre sold real estate inventory which enabled the developers to offer post handover payment plans." 
+    {
+      title: "Real Estate Portfolio Solutions | $400M+",
+      desc: "Executed complex refinancing and buyout transactions for premium GCC real estate assets. Helped number of real estate developers grow in the UAE market by arranging Real Estate Regulatory Authority (RERA) guarantees. Created innovative financing structures to support development projects by discounting receivables of pre sold real estate inventory which enabled the developers to offer post handover payment plans."
     },
   ];
 
@@ -115,12 +115,12 @@ export default function ContactClient() {
               <div className={styles.infoIcon}>📍</div>
               <div className={styles.infoText}>
                 <h4>Global Head Office</h4>
-                <p>Meydan Free Zone Dubai</p>
+                <p>Dubai, UAE</p>
               </div>
             </div>
 
             <div className={styles.infoItem}>
-              <div className={styles.infoIcon}>📞</div>
+              <div className={styles.infoIcon}><img style={{ height: "25px", width: "25px", margin: "0px", padding: "0px" }} src="./social.png" alt="" /></div>
               <div className={styles.infoText}>
                 <p>+971 50 210 6095</p>
               </div>
@@ -130,7 +130,7 @@ export default function ContactClient() {
               <div className={styles.infoIcon}>📍</div>
               <div className={styles.infoText}>
                 <h4>Canada Office</h4>
-                <p>Calgary, Canada</p>
+                <p>Toronto, Calgary, Canada</p>
               </div>
             </div>
 

@@ -38,13 +38,13 @@ export default function Footer() {
         <div className={styles.column}>
           <h3 className={styles.heading}>Contact Us</h3>
           <div className={styles.contactItem}>
-            📍 Meydan Free Zone Dubai
+            📍 Dubai, UAE
           </div>
           <div className={styles.contactItem}>
-            📞 +971 50 210 6095
+            <img style={{ height: "25px", width: "25px", margin: "0px", padding: "0px" }} src="./social.png" alt="" /> +971 50 210 6095
           </div>
           <div style={{ marginTop: '15px' }} className={styles.contactItem}>
-            📍 Calgary, Canada
+            📍 Toronto, Calgary, Canada
           </div>
           <div className={styles.contactItem}>
             📞 +1 368 993 3609

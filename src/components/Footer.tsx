@@ -57,7 +57,7 @@ export default function Footer() {
         {/* Social Links */}
         <div className={styles.column}>
           <h3 className={styles.heading}>Follow Us</h3>
-          <p className={styles.description}>Stay updated with our latest financial insights and news.</p>
+          <p className={styles.description}>Stay updated with our latest deals and opportunities.</p>
           <div className={styles.socials}>
             <a href="https://www.linkedin.com/company/salt-ranges/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               in

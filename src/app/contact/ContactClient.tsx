@@ -120,7 +120,7 @@ export default function ContactClient() {
             </div>
 
             <div className={styles.infoItem}>
-              <div className={styles.infoIcon}><img style={{ height: "25px", width: "25px", margin: "0px", padding: "0px" }} src="./social.png" alt="" /></div>
+              <div className={styles.infoIcon}>📞<img style={{ height: "25px", width: "25px", margin: "0px", padding: "0px" }} src="./social.png" alt="" /></div>
               <div className={styles.infoText}>
                 <p>+971 50 210 6095</p>
               </div>
